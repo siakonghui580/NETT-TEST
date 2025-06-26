@@ -1,0 +1,327 @@
+2025-06-25 17:20:25.172 +08:00 [INF] Handling Request: GET /swagger at "2025-06-25T09:20:25.1705692Z"
+2025-06-25 17:20:25.251 +08:00 [INF] Request Body: 
+2025-06-25 17:20:25.261 +08:00 [INF] HTTP GET /swagger responded 301 in 6.9616 ms
+2025-06-25 17:20:25.264 +08:00 [INF] Finished Handling Request: GET /swagger responded 301 at "2025-06-25T09:20:25.2639831Z"
+2025-06-25 17:20:25.438 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-25T09:20:25.4380727Z"
+2025-06-25 17:20:25.438 +08:00 [INF] Request Body: 
+2025-06-25 17:20:25.502 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 63.3354 ms
+2025-06-25 17:20:25.502 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-25T09:20:25.5025406Z"
+2025-06-25 17:20:25.813 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-25T09:20:25.8133204Z"
+2025-06-25 17:20:25.813 +08:00 [INF] Request Body: 
+2025-06-25 17:20:25.848 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 34.1226 ms
+2025-06-25 17:20:25.849 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-25T09:20:25.8491418Z"
+2025-06-25 17:20:51.051 +08:00 [INF] Handling Request: POST /User/create at "2025-06-25T09:20:51.0511546Z"
+2025-06-25 17:20:51.052 +08:00 [INF] Request Body: {
+  "name": "Bumblebee",
+  "isActive": true
+}
+2025-06-25 17:20:53.649 +08:00 [INF] HTTP POST /User/create responded 200 in 2596.5534 ms
+2025-06-25 17:20:53.649 +08:00 [INF] Finished Handling Request: POST /User/create responded 200 at "2025-06-25T09:20:53.6496798Z"
+2025-06-25 17:20:54.170 +08:00 [INF] [RabbitMQ] Received: New user created: Id = 10, Name = Bumblebee, Active = True
+2025-06-25 17:21:00.097 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:21:00.0976902Z"
+2025-06-25 17:21:00.098 +08:00 [INF] Request Body: 
+2025-06-25 17:21:27.867 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-25T09:21:27.8664254Z"
+2025-06-25 17:21:27.938 +08:00 [INF] Request Body: 
+2025-06-25 17:21:28.031 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 86.9380 ms
+2025-06-25 17:21:28.035 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-25T09:21:28.0349208Z"
+2025-06-25 17:21:28.360 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-25T09:21:28.3604466Z"
+2025-06-25 17:21:28.361 +08:00 [INF] Request Body: 
+2025-06-25 17:21:28.374 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.3982 ms
+2025-06-25 17:21:28.374 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-25T09:21:28.3749643Z"
+2025-06-25 17:21:29.676 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:21:29.6769453Z"
+2025-06-25 17:21:29.677 +08:00 [INF] Request Body: 
+2025-06-25 17:21:47.935 +08:00 [INF] HTTP GET /User/10 responded 200 in 18257.5544 ms
+2025-06-25 17:21:47.935 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:21:47.9359410Z"
+2025-06-25 17:22:07.035 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:22:07.0352910Z"
+2025-06-25 17:22:07.035 +08:00 [INF] Request Body: 
+2025-06-25 17:22:10.943 +08:00 [INF] HTTP GET /User/10 responded 200 in 3907.4274 ms
+2025-06-25 17:22:10.943 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:22:10.9438450Z"
+2025-06-25 17:22:18.936 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:22:18.9365563Z"
+2025-06-25 17:22:18.937 +08:00 [INF] Request Body: 
+2025-06-25 17:22:18.970 +08:00 [INF] HTTP GET /User/10 responded 200 in 33.0486 ms
+2025-06-25 17:22:18.971 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:22:18.9711380Z"
+2025-06-25 17:23:22.832 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:23:22.8325498Z"
+2025-06-25 17:23:22.833 +08:00 [INF] Request Body: 
+2025-06-25 17:23:22.886 +08:00 [INF] HTTP GET /User/10 responded 200 in 52.2028 ms
+2025-06-25 17:23:22.886 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:23:22.8866158Z"
+2025-06-25 17:23:59.680 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:23:59.6801855Z"
+2025-06-25 17:23:59.680 +08:00 [INF] Request Body: 
+2025-06-25 17:24:04.341 +08:00 [INF] HTTP GET /User/10 responded 200 in 4660.8903 ms
+2025-06-25 17:24:04.341 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:24:04.3419580Z"
+2025-06-25 17:24:07.529 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:24:07.5290986Z"
+2025-06-25 17:24:07.529 +08:00 [INF] Request Body: 
+2025-06-25 17:24:13.325 +08:00 [INF] HTTP GET /User/10 responded 200 in 5795.9022 ms
+2025-06-25 17:24:13.325 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:24:13.3256854Z"
+2025-06-25 17:24:40.691 +08:00 [INF] Handling Request: PUT /User/update at "2025-06-25T09:24:40.6911757Z"
+2025-06-25 17:24:40.692 +08:00 [INF] Request Body: {
+  "id": 10,
+  "name": "Bumble bee",
+  "isActive": false
+}
+2025-06-25 17:24:40.888 +08:00 [INF] HTTP PUT /User/update responded 200 in 196.4407 ms
+2025-06-25 17:24:40.888 +08:00 [INF] Finished Handling Request: PUT /User/update responded 200 at "2025-06-25T09:24:40.8889942Z"
+2025-06-25 17:24:41.142 +08:00 [INF] [RabbitMQ] Received: User updated: Id = 10, Name updated from 'Bumblebee' to 'Bumble bee', IsActive updated from 'True' to 'False'
+2025-06-25 17:24:44.198 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:24:44.1988054Z"
+2025-06-25 17:24:44.200 +08:00 [INF] Request Body: 
+2025-06-25 17:24:44.215 +08:00 [INF] HTTP GET /User/10 responded 200 in 15.3984 ms
+2025-06-25 17:24:44.215 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:24:44.2158699Z"
+2025-06-25 17:24:45.289 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:24:45.2894314Z"
+2025-06-25 17:24:45.289 +08:00 [INF] Request Body: 
+2025-06-25 17:24:49.249 +08:00 [INF] HTTP GET /User/10 responded 200 in 3959.6177 ms
+2025-06-25 17:24:49.256 +08:00 [INF] Finished Handling Request: GET /User/10 responded 200 at "2025-06-25T09:24:49.2560939Z"
+2025-06-25 17:24:58.156 +08:00 [INF] Handling Request: DELETE /User/10 at "2025-06-25T09:24:58.1563083Z"
+2025-06-25 17:24:58.197 +08:00 [INF] HTTP DELETE /User/10 responded 200 in 41.3936 ms
+2025-06-25 17:24:58.198 +08:00 [INF] Finished Handling Request: DELETE /User/10 responded 200 at "2025-06-25T09:24:58.1983045Z"
+2025-06-25 17:24:58.438 +08:00 [INF] [RabbitMQ] Received: User deleted: Id = 10
+2025-06-25 17:25:07.604 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:25:07.6048918Z"
+2025-06-25 17:25:07.605 +08:00 [INF] Request Body: 
+2025-06-25 17:25:13.732 +08:00 [ERR] HTTP GET /User/10 responded 500 in 6127.1628 ms
+System.Collections.Generic.KeyNotFoundException: User with ID 10 not found.
+   at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-06-25 17:25:13.897 +08:00 [ERR] An error occurred while processing the request: GET /User/10 at "2025-06-25T09:25:13.8965810Z"
+System.Collections.Generic.KeyNotFoundException: User with ID 10 not found.
+   at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-25 17:25:13.898 +08:00 [ERR] Exception Details: User with ID 10 not found.
+2025-06-25 17:25:13.898 +08:00 [ERR] Stack Trace:    at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-25 17:27:05.092 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-25T09:27:05.0909913Z"
+2025-06-25 17:27:05.165 +08:00 [INF] Request Body: 
+2025-06-25 17:27:05.248 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 79.4811 ms
+2025-06-25 17:27:05.250 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-25T09:27:05.2503092Z"
+2025-06-25 17:27:06.800 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:27:06.8002323Z"
+2025-06-25 17:27:06.802 +08:00 [INF] Request Body: 
+2025-06-25 17:27:10.857 +08:00 [ERR] HTTP GET /User/10 responded 500 in 4054.8352 ms
+System.Collections.Generic.KeyNotFoundException: User with ID 10 not found.
+   at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-06-25 17:27:11.023 +08:00 [ERR] An error occurred while processing the request: GET /User/10 at "2025-06-25T09:27:11.0230246Z"
+System.Collections.Generic.KeyNotFoundException: User with ID 10 not found.
+   at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-25 17:27:11.025 +08:00 [ERR] Exception Details: User with ID 10 not found.
+2025-06-25 17:27:11.025 +08:00 [ERR] Stack Trace:    at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-25 17:27:18.579 +08:00 [INF] Handling Request: GET /User/10 at "2025-06-25T09:27:18.5796112Z"
+2025-06-25 17:27:18.580 +08:00 [INF] Request Body: 
+2025-06-25 17:27:19.380 +08:00 [ERR] HTTP GET /User/10 responded 500 in 799.5957 ms
+System.Collections.Generic.KeyNotFoundException: User with ID 10 not found.
+   at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-06-25 17:27:19.523 +08:00 [ERR] An error occurred while processing the request: GET /User/10 at "2025-06-25T09:27:19.5237251Z"
+System.Collections.Generic.KeyNotFoundException: User with ID 10 not found.
+   at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-25 17:27:19.524 +08:00 [ERR] Exception Details: User with ID 10 not found.
+2025-06-25 17:27:19.525 +08:00 [ERR] Stack Trace:    at Application.Users.UserService.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 82
+   at Web.Host.Controllers.UserController.GetUserByIdAsync(Int32 id) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 42
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-25 17:31:55.494 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-25T09:31:55.4930826Z"
+2025-06-25 17:31:55.557 +08:00 [INF] Request Body: 
+2025-06-25 17:31:55.636 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 75.0027 ms
+2025-06-25 17:31:55.640 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-25T09:31:55.6392521Z"
+2025-06-25 17:31:55.954 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-25T09:31:55.9543958Z"
+2025-06-25 17:31:55.956 +08:00 [INF] Request Body: 
+2025-06-25 17:31:55.974 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.8633 ms
+2025-06-25 17:31:55.975 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-25T09:31:55.9751110Z"
+2025-06-25 17:33:40.268 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-25T09:33:40.2688582Z"
+2025-06-25 17:33:40.270 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-25 17:33:49.049 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 8778.4295 ms
+2025-06-25 17:33:49.050 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-25T09:33:49.0501268Z"
+2025-06-25 17:33:51.650 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-25T09:33:51.6503685Z"
+2025-06-25 17:33:51.650 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-25 17:34:22.470 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 30819.5986 ms
+2025-06-25 17:34:22.470 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-25T09:34:22.4709067Z"
+2025-06-25 17:35:51.828 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-25T09:35:51.8277416Z"
+2025-06-25 17:35:51.898 +08:00 [INF] Request Body: 
+2025-06-25 17:35:52.001 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 99.0892 ms
+2025-06-25 17:35:52.006 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-25T09:35:52.0055400Z"
+2025-06-25 17:35:52.295 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-25T09:35:52.2955706Z"
+2025-06-25 17:35:52.296 +08:00 [INF] Request Body: 
+2025-06-25 17:35:52.308 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.8119 ms
+2025-06-25 17:35:52.308 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-25T09:35:52.3084451Z"
+2025-06-25 17:35:53.564 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-25T09:35:53.5643497Z"
+2025-06-25 17:35:53.565 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-25 17:36:12.265 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 18699.7784 ms
+2025-06-25 17:36:12.266 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-25T09:36:12.2662379Z"
+2025-06-25 17:36:42.302 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-25T09:36:42.3022085Z"
+2025-06-25 17:36:42.302 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-25 17:38:20.129 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-25T09:38:20.1281652Z"
+2025-06-25 17:38:20.198 +08:00 [INF] Request Body: 
+2025-06-25 17:38:20.287 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 84.8478 ms
+2025-06-25 17:38:20.290 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-25T09:38:20.2898782Z"
+2025-06-25 17:38:20.545 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-25T09:38:20.5450278Z"
+2025-06-25 17:38:20.546 +08:00 [INF] Request Body: 
+2025-06-25 17:38:20.559 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.4546 ms
+2025-06-25 17:38:20.559 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-25T09:38:20.5595998Z"
+2025-06-25 17:38:21.790 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-25T09:38:21.7904671Z"
+2025-06-25 17:38:21.792 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-25 17:38:29.769 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 7977.1613 ms
+2025-06-25 17:38:29.770 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-25T09:38:29.7700788Z"
+2025-06-25 17:39:13.682 +08:00 [INF] Handling Request: PUT /User/update at "2025-06-25T09:39:13.6829724Z"
+2025-06-25 17:39:13.684 +08:00 [INF] Request Body: {
+  "id": 4,
+  "name": "Danny Phantom",
+  "isActive": true
+}
+2025-06-25 17:39:15.739 +08:00 [INF] HTTP PUT /User/update responded 200 in 2054.5887 ms
+2025-06-25 17:39:15.739 +08:00 [INF] Finished Handling Request: PUT /User/update responded 200 at "2025-06-25T09:39:15.7394605Z"
+2025-06-25 17:39:15.986 +08:00 [INF] [RabbitMQ] Received: User updated: Id = 4, Name updated from 'Danny' to 'Danny Phantom'
+2025-06-25 17:39:23.221 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-25T09:39:23.2215881Z"
+2025-06-25 17:39:23.223 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-25 17:39:23.244 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 20.5405 ms
+2025-06-25 17:39:23.246 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-25T09:39:23.2464473Z"
+2025-06-25 17:39:30.262 +08:00 [INF] Handling Request: GET /User/4 at "2025-06-25T09:39:30.2623126Z"
+2025-06-25 17:39:30.262 +08:00 [INF] Request Body: 
+2025-06-25 17:39:30.350 +08:00 [INF] HTTP GET /User/4 responded 200 in 87.4090 ms
+2025-06-25 17:39:30.350 +08:00 [INF] Finished Handling Request: GET /User/4 responded 200 at "2025-06-25T09:39:30.3509847Z"

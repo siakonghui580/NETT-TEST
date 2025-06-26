@@ -1,0 +1,90 @@
+2025-06-24 16:06:50.405 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-24T08:06:50.4041545Z"
+2025-06-24 16:06:50.506 +08:00 [INF] Request Body: 
+2025-06-24 16:06:50.591 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 82.5313 ms
+2025-06-24 16:06:50.594 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-24T08:06:50.5944580Z"
+2025-06-24 16:06:50.842 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-24T08:06:50.8421935Z"
+2025-06-24 16:06:50.843 +08:00 [INF] Request Body: 
+2025-06-24 16:06:50.855 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.0618 ms
+2025-06-24 16:06:50.856 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-24T08:06:50.8562701Z"
+2025-06-24 16:07:16.964 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-24T08:07:16.9647519Z"
+2025-06-24 16:07:16.966 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-24 16:07:19.406 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 2440.3877 ms
+2025-06-24 16:07:19.407 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-24T08:07:19.4071400Z"
+2025-06-24 16:07:41.589 +08:00 [INF] Handling Request: POST /User/create at "2025-06-24T08:07:41.5896289Z"
+2025-06-24 16:07:41.590 +08:00 [INF] Request Body: {
+  "name": "Optimus",
+  "isActive": true
+}
+2025-06-24 16:07:41.897 +08:00 [INF] HTTP POST /User/create responded 200 in 306.5376 ms
+2025-06-24 16:07:41.898 +08:00 [INF] Finished Handling Request: POST /User/create responded 200 at "2025-06-24T08:07:41.8982596Z"
+2025-06-24 16:07:42.181 +08:00 [INF] [RabbitMQ] Received: New user created: Id = 9, Name = Optimus, Active = True
+2025-06-24 16:08:19.511 +08:00 [INF] Handling Request: PUT /User/update at "2025-06-24T08:08:19.5113920Z"
+2025-06-24 16:08:19.511 +08:00 [INF] Request Body: {
+  "id": 9,
+  "name": "Optimus Prime",
+  "isActive": false
+}
+2025-06-24 16:08:19.714 +08:00 [INF] HTTP PUT /User/update responded 200 in 202.3517 ms
+2025-06-24 16:08:19.714 +08:00 [INF] Finished Handling Request: PUT /User/update responded 200 at "2025-06-24T08:08:19.7143119Z"
+2025-06-24 16:08:19.942 +08:00 [INF] [RabbitMQ] Received: User updated: Id = 9, Name updated from 'Optimus' to 'Optimus Prime', IsActive updated from 'True' to 'False'
+2025-06-24 16:09:17.292 +08:00 [INF] Handling Request: PUT /User/update at "2025-06-24T08:09:17.2924670Z"
+2025-06-24 16:09:17.293 +08:00 [INF] Request Body: {
+  "id": 11,
+  "name": "Optimus Prime",
+  "isActive": false
+}
+2025-06-24 16:09:18.048 +08:00 [ERR] HTTP PUT /User/update responded 500 in 755.3601 ms
+System.Collections.Generic.KeyNotFoundException: User with ID 11 not found.
+   at Application.Users.UserService.UpdateUserAsync(UpdateUserInputDTO input) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 97
+   at Web.Host.Controllers.UserController.UpdateUserAsync(UpdateUserInputDTO input) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-06-24 16:09:18.222 +08:00 [ERR] An error occurred while processing the request: PUT /User/update at "2025-06-24T08:09:18.2221466Z"
+System.Collections.Generic.KeyNotFoundException: User with ID 11 not found.
+   at Application.Users.UserService.UpdateUserAsync(UpdateUserInputDTO input) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 97
+   at Web.Host.Controllers.UserController.UpdateUserAsync(UpdateUserInputDTO input) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-24 16:09:18.223 +08:00 [ERR] Exception Details: User with ID 11 not found.
+2025-06-24 16:09:18.224 +08:00 [ERR] Stack Trace:    at Application.Users.UserService.UpdateUserAsync(UpdateUserInputDTO input) in C:\Users\HP 14s\Documents\NETT\Application\Users\UserService.cs:line 97
+   at Web.Host.Controllers.UserController.UpdateUserAsync(UpdateUserInputDTO input) in C:\Users\HP 14s\Documents\NETT\Web.Host\Controllers\UserController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT\Web.Host\Middleware\LoggerMiddleware.cs:line 47

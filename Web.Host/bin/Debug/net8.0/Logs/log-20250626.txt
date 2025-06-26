@@ -1,0 +1,509 @@
+2025-06-26 10:38:37.468 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-26T02:38:37.4673552Z"
+2025-06-26 10:38:37.611 +08:00 [INF] Request Body: 
+2025-06-26 10:38:37.758 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 140.6816 ms
+2025-06-26 10:38:37.762 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-26T02:38:37.7614097Z"
+2025-06-26 10:38:38.070 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-26T02:38:38.0702962Z"
+2025-06-26 10:38:38.073 +08:00 [INF] Request Body: 
+2025-06-26 10:38:38.109 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 35.5237 ms
+2025-06-26 10:38:38.111 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-26T02:38:38.1112782Z"
+2025-06-26 10:39:11.052 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:11.0520764Z"
+2025-06-26 10:39:11.054 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:13.737 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 2683.3360 ms
+2025-06-26 10:39:13.738 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:13.7380650Z"
+2025-06-26 10:39:31.804 +08:00 [INF] Handling Request: PUT /User/update at "2025-06-26T02:39:31.8047617Z"
+2025-06-26 10:39:31.805 +08:00 [INF] Request Body: {
+  "id": 4,
+  "name": "Danny G",
+  "isActive": true
+}
+2025-06-26 10:39:32.152 +08:00 [INF] HTTP PUT /User/update responded 200 in 346.3813 ms
+2025-06-26 10:39:32.152 +08:00 [INF] Finished Handling Request: PUT /User/update responded 200 at "2025-06-26T02:39:32.1529390Z"
+2025-06-26 10:39:32.411 +08:00 [INF] [RabbitMQ] Received: User updated: Id = 4, Name updated from 'Danny Phantom' to 'Danny G'
+2025-06-26 10:39:38.644 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:38.6442468Z"
+2025-06-26 10:39:38.644 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:38.670 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 25.6949 ms
+2025-06-26 10:39:38.670 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:38.6706831Z"
+2025-06-26 10:39:39.645 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:39.6450598Z"
+2025-06-26 10:39:39.645 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:39.653 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 7.3959 ms
+2025-06-26 10:39:39.653 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:39.6533936Z"
+2025-06-26 10:39:40.308 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:40.3088079Z"
+2025-06-26 10:39:40.309 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:40.313 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.6275 ms
+2025-06-26 10:39:40.314 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:40.3141044Z"
+2025-06-26 10:39:56.141 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:56.1416190Z"
+2025-06-26 10:39:56.142 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:56.147 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 5.5720 ms
+2025-06-26 10:39:56.148 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:56.1481851Z"
+2025-06-26 10:39:56.756 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:56.7560416Z"
+2025-06-26 10:39:56.756 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:56.779 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 22.3966 ms
+2025-06-26 10:39:56.779 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:56.7795788Z"
+2025-06-26 10:39:57.437 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:57.4375703Z"
+2025-06-26 10:39:57.438 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:57.444 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 5.7060 ms
+2025-06-26 10:39:57.444 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:57.4445089Z"
+2025-06-26 10:39:58.197 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:58.1974131Z"
+2025-06-26 10:39:58.197 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:58.204 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 6.0449 ms
+2025-06-26 10:39:58.204 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:58.2044669Z"
+2025-06-26 10:39:59.301 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:39:59.3018238Z"
+2025-06-26 10:39:59.302 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:39:59.318 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 16.3837 ms
+2025-06-26 10:39:59.318 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:39:59.3189946Z"
+2025-06-26 10:40:00.099 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:00.0997577Z"
+2025-06-26 10:40:00.100 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:00.105 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 5.0184 ms
+2025-06-26 10:40:00.106 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:00.1065154Z"
+2025-06-26 10:40:00.761 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:00.7610773Z"
+2025-06-26 10:40:00.761 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:00.768 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 6.6464 ms
+2025-06-26 10:40:00.769 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:00.7693058Z"
+2025-06-26 10:40:01.701 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:01.7013514Z"
+2025-06-26 10:40:01.701 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:01.708 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 7.0401 ms
+2025-06-26 10:40:01.709 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:01.7097049Z"
+2025-06-26 10:40:02.914 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:02.9145595Z"
+2025-06-26 10:40:02.914 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:02.922 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 6.9867 ms
+2025-06-26 10:40:02.922 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:02.9224108Z"
+2025-06-26 10:40:03.487 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:03.4876920Z"
+2025-06-26 10:40:03.488 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:03.497 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 9.4024 ms
+2025-06-26 10:40:03.498 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:03.4980763Z"
+2025-06-26 10:40:04.197 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:04.1976103Z"
+2025-06-26 10:40:04.198 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:04.204 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 5.6124 ms
+2025-06-26 10:40:04.204 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:04.2043541Z"
+2025-06-26 10:40:04.970 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:04.9707201Z"
+2025-06-26 10:40:04.970 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:04.975 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.5739 ms
+2025-06-26 10:40:04.975 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:04.9758268Z"
+2025-06-26 10:40:05.526 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:05.5267342Z"
+2025-06-26 10:40:05.526 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:05.531 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.2816 ms
+2025-06-26 10:40:05.531 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:05.5316935Z"
+2025-06-26 10:40:06.118 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:06.1183358Z"
+2025-06-26 10:40:06.118 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:06.125 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 6.4525 ms
+2025-06-26 10:40:06.126 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:06.1263450Z"
+2025-06-26 10:40:06.762 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:06.7627420Z"
+2025-06-26 10:40:06.762 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:06.766 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 3.9936 ms
+2025-06-26 10:40:06.767 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:06.7674582Z"
+2025-06-26 10:40:07.496 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:07.4966116Z"
+2025-06-26 10:40:07.496 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:07.500 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 3.5745 ms
+2025-06-26 10:40:07.500 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:07.5008606Z"
+2025-06-26 10:40:08.337 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:08.3373201Z"
+2025-06-26 10:40:08.337 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:08.349 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 11.7571 ms
+2025-06-26 10:40:08.350 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:08.3499755Z"
+2025-06-26 10:40:09.001 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:09.0017445Z"
+2025-06-26 10:40:09.001 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:09.006 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.2119 ms
+2025-06-26 10:40:09.006 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:09.0066355Z"
+2025-06-26 10:40:09.736 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:09.7362781Z"
+2025-06-26 10:40:09.736 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:09.747 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 10.3356 ms
+2025-06-26 10:40:09.747 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:09.7473659Z"
+2025-06-26 10:40:10.402 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:10.4025633Z"
+2025-06-26 10:40:10.402 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:10.408 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 5.5010 ms
+2025-06-26 10:40:10.408 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:10.4088917Z"
+2025-06-26 10:40:11.070 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:11.0700086Z"
+2025-06-26 10:40:11.070 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:11.076 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 5.9419 ms
+2025-06-26 10:40:11.076 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:11.0766100Z"
+2025-06-26 10:40:11.697 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:11.6975653Z"
+2025-06-26 10:40:11.697 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:11.702 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.5785 ms
+2025-06-26 10:40:11.702 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:11.7029878Z"
+2025-06-26 10:40:12.230 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:12.2304624Z"
+2025-06-26 10:40:12.230 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:12.235 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.3377 ms
+2025-06-26 10:40:12.235 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:12.2352934Z"
+2025-06-26 10:40:12.724 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:12.7246344Z"
+2025-06-26 10:40:12.724 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:12.741 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 15.8531 ms
+2025-06-26 10:40:12.747 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:12.7479345Z"
+2025-06-26 10:40:13.361 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:13.3619898Z"
+2025-06-26 10:40:13.362 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:13.366 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4.5061 ms
+2025-06-26 10:40:13.367 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:13.3671547Z"
+2025-06-26 10:40:13.919 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T02:40:13.9196836Z"
+2025-06-26 10:40:13.919 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 10:40:14.027 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 106.0012 ms
+2025-06-26 10:40:14.027 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T02:40:14.0277159Z"
+2025-06-26 10:46:15.884 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-26T02:46:15.8830178Z"
+2025-06-26 10:46:15.970 +08:00 [INF] Request Body: 
+2025-06-26 10:46:16.039 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 64.8878 ms
+2025-06-26 10:46:16.043 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-26T02:46:16.0432177Z"
+2025-06-26 10:46:16.236 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-26T02:46:16.2367588Z"
+2025-06-26 10:46:16.237 +08:00 [INF] Request Body: 
+2025-06-26 10:46:16.250 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.7169 ms
+2025-06-26 10:46:16.250 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-26T02:46:16.2506920Z"
+2025-06-26 10:48:48.231 +08:00 [INF] Handling Request: POST /User/create at "2025-06-26T02:48:48.2316164Z"
+2025-06-26 10:48:48.233 +08:00 [INF] Request Body: {
+  "name": "Megatron",
+  "isActive": false
+}
+2025-06-26 10:48:50.869 +08:00 [INF] HTTP POST /User/create responded 200 in 2635.4265 ms
+2025-06-26 10:48:50.869 +08:00 [INF] Finished Handling Request: POST /User/create responded 200 at "2025-06-26T02:48:50.8696397Z"
+2025-06-26 10:48:51.107 +08:00 [INF] [RabbitMQ] Received: New user created: Id = 11, Name = Megatron, Active = False
+2025-06-26 11:42:38.532 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-26T03:42:38.5318409Z"
+2025-06-26 11:42:38.556 +08:00 [INF] Request Body: 
+2025-06-26 11:42:38.685 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 128.1458 ms
+2025-06-26 11:42:38.686 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-26T03:42:38.6867833Z"
+2025-06-26 18:29:57.881 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-26T10:29:57.8800690Z"
+2025-06-26 18:29:57.958 +08:00 [INF] Request Body: 
+2025-06-26 18:29:58.027 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 65.2589 ms
+2025-06-26 18:29:58.031 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-26T10:29:58.0306984Z"
+2025-06-26 18:29:58.367 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-26T10:29:58.3672020Z"
+2025-06-26 18:29:58.369 +08:00 [INF] Request Body: 
+2025-06-26 18:29:58.385 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.7177 ms
+2025-06-26 18:29:58.385 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-26T10:29:58.3856844Z"
+2025-06-26 18:30:13.148 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T10:30:13.1480715Z"
+2025-06-26 18:30:13.150 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": true
+}
+2025-06-26 18:30:17.591 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 4440.1110 ms
+2025-06-26 18:30:17.591 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T10:30:17.5917350Z"
+2025-06-26 18:31:39.397 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T10:31:39.3972518Z"
+2025-06-26 18:31:39.397 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 18:31:39.464 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 66.9271 ms
+2025-06-26 18:31:39.465 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T10:31:39.4650599Z"
+2025-06-26 18:31:56.721 +08:00 [INF] Handling Request: POST /User/create at "2025-06-26T10:31:56.7215877Z"
+2025-06-26 18:31:56.724 +08:00 [INF] Request Body: {
+  "name": "Rachet",
+  "isActive": true
+}
+2025-06-26 18:31:57.059 +08:00 [INF] HTTP POST /User/create responded 200 in 335.3565 ms
+2025-06-26 18:31:57.060 +08:00 [INF] Finished Handling Request: POST /User/create responded 200 at "2025-06-26T10:31:57.0601169Z"
+2025-06-26 18:31:57.327 +08:00 [INF] [RabbitMQ] Received: New user created: Id = 12, Name = Rachet, Active = True
+2025-06-26 18:35:48.562 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-26T10:35:48.5602388Z"
+2025-06-26 18:35:48.674 +08:00 [INF] Request Body: 
+2025-06-26 18:35:48.785 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 105.1355 ms
+2025-06-26 18:35:48.790 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-26T10:35:48.7901068Z"
+2025-06-26 18:35:49.243 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-26T10:35:49.2430109Z"
+2025-06-26 18:35:49.243 +08:00 [INF] Request Body: 
+2025-06-26 18:35:49.277 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 33.6171 ms
+2025-06-26 18:35:49.278 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-26T10:35:49.2783803Z"
+2025-06-26 18:35:49.356 +08:00 [INF] Handling Request: GET /swagger/favicon-32x32.png at "2025-06-26T10:35:49.3569668Z"
+2025-06-26 18:35:49.357 +08:00 [INF] Request Body: 
+2025-06-26 18:35:49.371 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 13.6522 ms
+2025-06-26 18:35:49.371 +08:00 [INF] Finished Handling Request: GET /swagger/favicon-32x32.png responded 200 at "2025-06-26T10:35:49.3715635Z"
+2025-06-26 18:36:04.355 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T10:36:04.3551180Z"
+2025-06-26 18:36:04.356 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 18:36:27.854 +08:00 [ERR] An error occurred using the connection to database 'NETT' on server 'X'.
+2025-06-26 18:36:28.177 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'EntityFrameworkCore.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2025-06-26 18:36:29.573 +08:00 [ERR] HTTP POST /User/user-listing responded 500 in 25216.5283 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at DataAccess.Users.UserRepository.GetFilteredUsersAsync(String name, Nullable`1 isActive) in C:\Users\HP 14s\Documents\NETT-TEST\DataAccess\Users\UserRepository.cs:line 45
+   at Application.Users.UserService.GetUsersAsync(GetUsersInputDTO input) in C:\Users\HP 14s\Documents\NETT-TEST\Application\Users\UserService.cs:line 63
+   at Web.Host.Controllers.UserController.GetUsersAsync(GetUsersInputDTO input) in C:\Users\HP 14s\Documents\NETT-TEST\Web.Host\Controllers\UserController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2025-06-26 18:36:29.815 +08:00 [ERR] An error occurred while processing the request: POST /User/user-listing at "2025-06-26T10:36:29.8146726Z"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at DataAccess.Users.UserRepository.GetFilteredUsersAsync(String name, Nullable`1 isActive) in C:\Users\HP 14s\Documents\NETT-TEST\DataAccess\Users\UserRepository.cs:line 45
+   at Application.Users.UserService.GetUsersAsync(GetUsersInputDTO input) in C:\Users\HP 14s\Documents\NETT-TEST\Application\Users\UserService.cs:line 63
+   at Web.Host.Controllers.UserController.GetUsersAsync(GetUsersInputDTO input) in C:\Users\HP 14s\Documents\NETT-TEST\Web.Host\Controllers\UserController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT-TEST\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2025-06-26 18:36:29.819 +08:00 [ERR] Exception Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2025-06-26 18:36:29.820 +08:00 [ERR] Stack Trace:    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at DataAccess.Users.UserRepository.GetFilteredUsersAsync(String name, Nullable`1 isActive) in C:\Users\HP 14s\Documents\NETT-TEST\DataAccess\Users\UserRepository.cs:line 45
+   at Application.Users.UserService.GetUsersAsync(GetUsersInputDTO input) in C:\Users\HP 14s\Documents\NETT-TEST\Application\Users\UserService.cs:line 63
+   at Web.Host.Controllers.UserController.GetUsersAsync(GetUsersInputDTO input) in C:\Users\HP 14s\Documents\NETT-TEST\Web.Host\Controllers\UserController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Web.Host.Middleware.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\HP 14s\Documents\NETT-TEST\Web.Host\Middleware\LoggerMiddleware.cs:line 47
+2025-06-26 18:37:03.421 +08:00 [INF] Handling Request: GET /swagger/index.html at "2025-06-26T10:37:03.4178813Z"
+2025-06-26 18:37:03.614 +08:00 [INF] Request Body: 
+2025-06-26 18:37:03.795 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 171.5812 ms
+2025-06-26 18:37:03.802 +08:00 [INF] Finished Handling Request: GET /swagger/index.html responded 200 at "2025-06-26T10:37:03.8018141Z"
+2025-06-26 18:37:04.261 +08:00 [INF] Handling Request: GET /swagger/v1/swagger.json at "2025-06-26T10:37:04.2614996Z"
+2025-06-26 18:37:04.262 +08:00 [INF] Request Body: 
+2025-06-26 18:37:04.292 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 29.3232 ms
+2025-06-26 18:37:04.292 +08:00 [INF] Finished Handling Request: GET /swagger/v1/swagger.json responded 200 at "2025-06-26T10:37:04.2927387Z"
+2025-06-26 18:37:05.728 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T10:37:05.7281927Z"
+2025-06-26 18:37:05.730 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 18:37:18.883 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 13152.0293 ms
+2025-06-26 18:37:18.883 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T10:37:18.8838169Z"
+2025-06-26 18:37:21.014 +08:00 [INF] Handling Request: POST /User/user-listing at "2025-06-26T10:37:21.0144323Z"
+2025-06-26 18:37:21.016 +08:00 [INF] Request Body: {
+  "name": null,
+  "isActive": null
+}
+2025-06-26 18:37:24.253 +08:00 [INF] HTTP POST /User/user-listing responded 200 in 3237.1749 ms
+2025-06-26 18:37:24.253 +08:00 [INF] Finished Handling Request: POST /User/user-listing responded 200 at "2025-06-26T10:37:24.2539758Z"
+2025-06-26 18:37:36.326 +08:00 [INF] Handling Request: POST /User/create at "2025-06-26T10:37:36.3269775Z"
+2025-06-26 18:37:36.327 +08:00 [INF] Request Body: {
+  "name": "Starscream",
+  "isActive": true
+}
+2025-06-26 18:37:36.780 +08:00 [INF] HTTP POST /User/create responded 200 in 452.9612 ms
+2025-06-26 18:37:36.780 +08:00 [INF] Finished Handling Request: POST /User/create responded 200 at "2025-06-26T10:37:36.7809169Z"
+2025-06-26 18:37:37.346 +08:00 [INF] [RabbitMQ] Received: New user created: Id = 13, Name = Starscream, Active = True
